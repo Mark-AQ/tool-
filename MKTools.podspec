@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '11.0'
     
     s.source_files = 'MKTools/Classes/**/*'
-    s.allow-warnings = 'no-clean'
     s.resource_bundles = {
         'MKTools' => ['MKTools/Assets/*']
     }
