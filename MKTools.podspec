@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'MKTools'
+    s.name             = 'MKToolsaq'
     s.version          = '1.0.0'
     s.summary          = 'A short description of MKTools.'
     
