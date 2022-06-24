@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'MKTools_Example' do
+  pod 'MKTools', :path => '../'
+  
+#  pod 'AFNetworking' #也可以从这里添加
+  
+  target 'MKTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
